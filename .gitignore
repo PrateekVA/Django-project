@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django
+*.log
+*.sqlite3
+*.db
+.env
+.env.local
+local_settings.py
+
+# Node.js / React
+frontend/note-keeper-frontend/node_modules/
+frontend/note-keeper-frontend/package-lock.json
+frontend/note-keeper-frontend/yarn.lock
+frontend/note-keeper-frontend/build/
+frontend/note-keeper-frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.lnk
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Production
+.next/
+.nuxt/
+dist/
+build/
+
+# Misc
+.env.example
+.env.local
+.env.*.local
